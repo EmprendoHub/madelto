@@ -6,7 +6,7 @@ import CatCoverComp from "@/components/products/CatCoverComp";
 import { getDictionary } from "@/lib/dictionary";
 
 export const metadata = {
-  title: "Hudson International Market",
+  title: "Madelto Remolques",
   description:
     "Ven y explora nuestra tienda en linea y descubre modelos exclusivos de marcas de alta gama.",
 };

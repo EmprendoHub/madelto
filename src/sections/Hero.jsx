@@ -69,10 +69,7 @@ function Hero() {
           delay: 1.65,
         }}
       >
-        <Button
-          text="Check out my course"
-          link="https://youtube.com/hudsoninternationalmarket"
-        />
+        <Button text="Check out my course" link="https://youtube.com/madelto" />
       </motion.div>
     </div>
   );

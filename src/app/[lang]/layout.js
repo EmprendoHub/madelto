@@ -13,20 +13,20 @@ import ThemeToggleVertical from "@/components/layout/ThemeToggleVertical";
 
 export const metadata = {
   manifest: "/manifest.json",
-  metadataBase: new URL("https://www.hudsoninternationalmarket.com"),
-  title: "Hudson International Market",
+  metadataBase: new URL("https://www.madelto.com"),
+  title: "Madelto Remolques",
   description:
     "Comercio Internacional de Granos, Hierbas, Especias y Condimentos",
   openGraph: {
-    title: "Hudson International Market",
+    title: "Madelto Remolques",
     description:
       "Comercio Internacional de Granos, Hierbas, Especias y Condimentos",
     image: "url/opengraph-image.png",
   },
   twitter: {
     card: "summary_large_image",
-    site: "@hudsoninternationalmarket",
-    title: "Hudson International Market",
+    site: "@madelto",
+    title: "Madelto Remolques",
     description:
       "Comercio Internacional de Granos, Hierbas, Especias y Condimentos",
     image: "url/opengraph-image.png",

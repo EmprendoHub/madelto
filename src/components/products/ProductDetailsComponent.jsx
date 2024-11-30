@@ -161,10 +161,10 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                         <Link
                           href={
                             lang === "es"
-                              ? `https://api.whatsapp.com/send/?phone=12069799807&text=Hola+%2AHudson+International+Market%2A.+Me+Interesa+cotizar+y+obtener+m%C3%A1s+informaci%C3%B3n+de+${
+                              ? `https://api.whatsapp.com/send/?phone=12069799807&text=Hola+%2AMadelto+Remolques%2A.+Me+Interesa+cotizar+y+obtener+m%C3%A1s+informaci%C3%B3n+de+${
                                   product?.title[`${lang}`]
                                 }&type=phone_number&app_absent=0`
-                              : `https://api.whatsapp.com/send/?phone=12069799807&text=Hello+%2AHudson+International+Market%2A.+Im+Interested+in+getting+a+quote+and+more+information+on+${
+                              : `https://api.whatsapp.com/send/?phone=12069799807&text=Hello+%2AMadelto+Remolques%2A.+Im+Interested+in+getting+a+quote+and+more+information+on+${
                                   product?.title[`${lang}`]
                                 }&type=phone_number&app_absent=0`
                           }

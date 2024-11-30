@@ -1778,8 +1778,8 @@ export async function requestContact(data) {
       }
 
       const recipient_email = email;
-      const sender_email = "hudsoninternationalmarket01@gmail.com";
-      const fromName = "Hudson International Market";
+      const sender_email = "madeltoremolque@gmail.com";
+      const fromName = "Madelto Remolques";
 
       const transporter = nodemailer.createTransport({
         host: "smtp.gmail.com",

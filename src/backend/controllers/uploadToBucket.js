@@ -10,22 +10,17 @@ export const uploadToBucket = async (file, fileLocation) => {
   await writeFile(path, buffer);
 
   return new Promise((resolve, reject) => {
-    mc.fPutObject(
-      "hudsoninternational",
-      fileLocation,
-      path,
-      function (err, result) {
-        if (err) {
-          console.log("Error from minio", err);
-          reject(err);
-        } else {
-          // console.log('Success uploading images to minio');
-          resolve({
-            _id: result._id, // Make sure _id and url are properties of the result object
-            etag: result.etag,
-          });
-        }
+    mc.fPutObject("madelto", fileLocation, path, function (err, result) {
+      if (err) {
+        console.log("Error from minio", err);
+        reject(err);
+      } else {
+        // console.log('Success uploading images to minio');
+        resolve({
+          _id: result._id, // Make sure _id and url are properties of the result object
+          etag: result.etag,
+        });
       }
-    );
+    });
   });
 };

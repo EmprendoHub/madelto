@@ -54,10 +54,10 @@ export async function POST(req) {
       const bodyTwo = `Puedes contactar por:`;
       const phoneContact = `Telefono:`;
       const emailContact = `Email:`;
-      const senderName = "www.hudsoninternationalmarket.com";
+      const senderName = "www.madelto.com";
       const bestRegards = "¡Creciendo tu presencia un contacto a la vez!";
       const contact_email = email;
-      const sender_email = "hudsoninternationalmarket01@gmail.com";
+      const sender_email = "madeltoremolque@gmail.com";
 
       var transporter = nodemailer.createTransport({
         service: "gmail",

@@ -3,7 +3,7 @@ import React from "react";
 import { getDictionary } from "@/lib/dictionary";
 
 export const metadata = {
-  title: "Hudson International Market",
+  title: "Madelto Remolques",
   description:
     "We are a trading company with more than 20 years in the market, specialized in the exchange of spices, condiments and other food ingredients.",
   openGraph: {
