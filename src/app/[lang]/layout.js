@@ -43,24 +43,23 @@ export default async function RootLayout({ children, params }) {
   const lang = params.lang;
   return (
     <html lang={`${lang}`}>
-      <GoogleAnalytics gaId="G-XHDKY7FLQ5" />
+      {/* <GoogleAnalytics gaId="G-XHDKY7FLQ5" /> */}
       <body
         className={`body-class relative overflow-x-hidden h-full dark:bg-dark bg-white dark:text-white`}
       >
         <CustomSessionProvider>
-          <HeaderComponent lang={lang} />
+          {/* <HeaderComponent lang={lang} /> */}
 
           {children}
-          <FooterComponent session={session} lang={lang} />
-          <BackToTopButton />
-          {!isLoggedIn && <WhatsAppButton lang={lang} />}
+          {/* <FooterComponent session={session} lang={lang} /> */}
+          {/* <BackToTopButton /> */}
+          {/* {!isLoggedIn && <WhatsAppButton lang={lang} />}
           {isLoggedIn && session?.user.role === "manager" && (
             <div className="fixed z-50 right-0 top-1/2">
-              {/* <LocaleToggleStyled lang={lang} /> */}
               <AdminThemeToggle />
             </div>
           )}
-          <ThemeToggleVertical />
+          <ThemeToggleVertical /> */}
         </CustomSessionProvider>
       </body>
     </html>

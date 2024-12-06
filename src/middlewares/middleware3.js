@@ -27,21 +27,21 @@ export function trackingMiddleware(middleware) {
         const browserName = browser.name;
         const source = url.href;
         const country = request.geo?.country || "";
-        const response = fetch(`${process.env.NEXTAUTH_URL}/api/analytics`, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            event: "visit",
-            source,
-            country,
-            ip,
-            viewport,
-            browserName,
-            device: deviceData,
-          }),
-        });
+        // const response = fetch(`${process.env.NEXTAUTH_URL}/api/analytics`, {
+        //   method: "POST",
+        //   headers: {
+        //     "Content-Type": "application/json",
+        //   },
+        //   body: JSON.stringify({
+        //     event: "visit",
+        //     source,
+        //     country,
+        //     ip,
+        //     viewport,
+        //     browserName,
+        //     device: deviceData,
+        //   }),
+        // });
       }
     } catch (error) {
       // Handle or log the error
