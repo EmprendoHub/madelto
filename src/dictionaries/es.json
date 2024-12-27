@@ -3,7 +3,7 @@
     "menu": [
       { "title": "Inicio", "url": "/" },
       { "title": "Acerca", "url": "/#acerca" },
-      { "title": "Remolques", "url": "/productos" },
+      { "title": "Remolques", "url": "/#productos" },
       { "title": "Contacto", "url": "/#contacto" }
     ],
     "searchbar": "Buscar"
@@ -39,12 +39,12 @@
     "widgettwo": {
       "title": "Remolques",
       "links": [
-        { "title": "Dolly", "url": "/productos?keyword=dolly" },
-        { "title": "Plataforma", "url": "/productos?keyword=plataforma" },
+        { "title": "Dolly", "url": "/#productos?keyword=dolly" },
+        { "title": "Plataforma", "url": "/#productos?keyword=plataforma" },
 
         {
           "title": "Porta Contenedor",
-          "url": "/productos?keyword=portacontenedor"
+          "url": "/#productos?keyword=portacontenedor"
         }
       ]
     },
@@ -52,7 +52,7 @@
       "title": "Sitio",
       "links": [
         { "title": "Inicio", "url": "/" },
-        { "title": "Remolques", "url": "/productos" },
+        { "title": "Remolques", "url": "/#productos" },
         { "title": "Contacto", "url": "/#contacto" },
         { "title": "Nosotros", "url": "/acerca" }
       ]
@@ -100,7 +100,7 @@
         "titleTwo": "mueve tus proyectos!",
         "text": "En Madelto, nuestros remolques están diseñados con frenos ABS, componentes premium y una resistencia inigualable para asegurar la mejor experiencia en carretera.",
         "btnText": "Explorar Remolques",
-        "btnPath": "/es/productos",
+        "btnPath": "/es/#productos",
         "imgPath": "/images/trailer4.webp"
       },
       {
@@ -109,7 +109,7 @@
         "titleTwo": "te acompañan en cada kilómetro.",
         "text": "En Madelto diseñamos remolques personalizados para que cada viaje sea seguro y eficiente. ",
         "btnText": "Explorar Remolques",
-        "btnPath": "/es/productos",
+        "btnPath": "/es/#productos",
         "imgPath": "/images/trailer2.webp"
       },
       {
@@ -118,7 +118,7 @@
         "titleTwo": "ideas con Madelto",
         "text": "Somos expertos en la fabricación de remolques personalizados que se adaptan a tus necesidades. Desde diseño hasta calidad, creamos soluciones únicas que destacan por su resistencia y estilo.",
         "btnText": "Explorar Remolques",
-        "btnPath": "/es/productos",
+        "btnPath": "/es/#productos",
         "imgPath": "/images/trailer3.webp"
       }
     ],
@@ -269,17 +269,17 @@
     "categories": [
       {
         "title": "Dolly",
-        "catPath": "/es/productos?keyword=Dolly",
+        "catPath": "/es/#productos?keyword=Dolly",
         "imgPath": "/images/Madelto_cat_01.jpg"
       },
       {
         "title": "Porta Contenedor",
-        "catPath": "/es/productos?keyword=PortaContenedor",
+        "catPath": "/es/#productos?keyword=PortaContenedor",
         "imgPath": "/images/Madelto_cat_02.jpg"
       },
       {
         "title": "Plataforma",
-        "catPath": "/es/productos?keyword=Plataforma",
+        "catPath": "/es/#productos?keyword=Plataforma",
         "imgPath": "/images/Madelto_cat_03.jpg"
       }
     ]
@@ -298,7 +298,7 @@
       "img": "/images/beach_bonus.jpg",
       "imgTwo": "/images/beach_bonus.jpg",
       "btnText": "Ver Remolques",
-      "btnLink": "/es/productos",
+      "btnLink": "/es/#productos",
       "icon": "FaAward"
     },
 
@@ -315,7 +315,7 @@
       "img": "/images/Premio_10_mil_pesos.jpg",
       "imgTwo": "/images/Premio_10_mil_pesos.jpg",
       "btnText": "Ver Remolques",
-      "btnLink": "/es/productos",
+      "btnLink": "/es/#productos",
       "icon": "FaSteam"
     }
   ],

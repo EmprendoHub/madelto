@@ -3,7 +3,7 @@
     "menu": [
       { "title": "Home", "url": "/" },
       { "title": "About", "url": "/#acerca" },
-      { "title": "Products", "url": "/productos" },
+      { "title": "Products", "url": "/#productos" },
       { "title": "Contact", "url": "/#contacto" }
     ],
     "searchbar": "Buscar"
@@ -39,11 +39,11 @@
     "widgettwo": {
       "title": "Products",
       "links": [
-        { "title": "Dolly", "url": "/productos?keyword=dolly" },
-        { "title": "Plataforma", "url": "/productos?keyword=plataforma" },
+        { "title": "Dolly", "url": "/#productos?keyword=dolly" },
+        { "title": "Plataforma", "url": "/#productos?keyword=plataforma" },
         {
           "title": "Container Trailer",
-          "url": "/productos?keyword=containertrailer"
+          "url": "/#productos?keyword=containertrailer"
         }
       ]
     },
@@ -51,7 +51,7 @@
       "title": "Site",
       "links": [
         { "title": "Home", "url": "/" },
-        { "title": "Products", "url": "/productos" },
+        { "title": "Products", "url": "/#productos" },
         { "title": "Contact", "url": "/#contacto" },
         { "title": "About Us", "url": "/acerca" }
       ]
@@ -99,7 +99,7 @@
         "titleTwo": "drives your projects!",
         "text": "At Madelto, our trailers are designed with ABS brakes, premium components and unmatched strength to ensure the best experience on the road.",
         "btnText": "Explore Products",
-        "btnPath": "/en/productos",
+        "btnPath": "/en/#productos",
         "imgPath": "/images/trailer4.webp"
       },
       {
@@ -108,7 +108,7 @@
         "titleTwo": "accompany you every kilometer.",
         "text": "At Madelto we design custom trailers to make every trip safe and efficient.",
         "btnText": "Explore Products",
-        "btnPath": "/en/productos",
+        "btnPath": "/en/#productos",
         "imgPath": "/images/trailer2.webp"
       },
       {
@@ -117,7 +117,7 @@
         "titleTwo": "ideas with Madelto",
         "text": "We are experts in the manufacture of custom trailers that adapt to your needs. From design to quality, we create unique solutions that stand out for their strength and style.",
         "btnText": "Explore Products",
-        "btnPath": "/en/productos",
+        "btnPath": "/en/#productos",
         "imgPath": "/images/trailer3.webp"
       }
     ],
@@ -268,17 +268,17 @@
     "categories": [
       {
         "title": "Dolly",
-        "catPath": "/en/productos?keyword=Dolly",
+        "catPath": "/en/#productos?keyword=Dolly",
         "imgPath": "/images/Madelto_cat_01.jpg"
       },
       {
         "title": "Container Trailer",
-        "catPath": "/en/productos?keyword=ContainerTrailer",
+        "catPath": "/en/#productos?keyword=ContainerTrailer",
         "imgPath": "/images/Madelto_cat_02.jpg"
       },
       {
         "title": "Platform",
-        "catPath": "/en/productos?keyword=Plataforma",
+        "catPath": "/en/#productos?keyword=Plataforma",
         "imgPath": "/images/Madelto_cat_03.jpg"
       }
     ]
@@ -297,7 +297,7 @@
       "img": "/images/beach_bonus.jpg",
       "imgTwo": "/images/beach_bonus.jpg",
       "btnText": "View Products",
-      "btnLink": "/en/productos",
+      "btnLink": "/en/#productos",
       "icon": "FaAward"
     },
 
@@ -314,7 +314,7 @@
       "img": "/images/Premio_10_mil_pesos.jpg",
       "imgTwo": "/images/Premio_10_mil_pesos.jpg",
       "btnText": "View Products",
-      "btnLink": "/en/productos",
+      "btnLink": "/en/#productos",
       "icon": "FaSteam"
     }
   ],
