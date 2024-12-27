@@ -170,7 +170,7 @@ const MobileMenuComponent = ({ className, lang, localeHeader }) => {
                 <Link
                   aria-label="WhatsApp"
                   target="_blank"
-                  href={"https://wa.me/12069799807"}
+                  href={"https://wa.me/523531043350"}
                   className="relative flex items-center justify-center group"
                 >
                   <svg className={`${styles.circle}`}>
