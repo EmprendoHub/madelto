@@ -571,12 +571,12 @@ const NewProductComp = ({ currentCookies, lang }) => {
                       value={title.es}
                       onChange={async (e) => {
                         setTitle((prev) => ({ ...prev, es: e.target.value }));
-                        handleAutoTranslate(
-                          e.target.value,
-                          "en",
-                          setTitle,
-                          "en"
-                        );
+                        // handleAutoTranslate(
+                        //   e.target.value,
+                        //   "en",
+                        //   setTitle,
+                        //   "en"
+                        // );
                       }}
                     />
                     <input
@@ -587,12 +587,12 @@ const NewProductComp = ({ currentCookies, lang }) => {
                       value={title.en}
                       onChange={async (e) => {
                         setTitle((prev) => ({ ...prev, en: e.target.value }));
-                        handleAutoTranslate(
-                          e.target.value,
-                          "es",
-                          setTitle,
-                          "es"
-                        );
+                        // handleAutoTranslate(
+                        //   e.target.value,
+                        //   "es",
+                        //   setTitle,
+                        //   "es"
+                        // );
                       }}
                     />
                     {validationError?.title && (
@@ -612,12 +612,12 @@ const NewProductComp = ({ currentCookies, lang }) => {
                           ...prev,
                           es: e.target.value,
                         }));
-                        handleAutoTranslate(
-                          e.target.value,
-                          "en",
-                          setDescription,
-                          "en"
-                        );
+                        // handleAutoTranslate(
+                        //   e.target.value,
+                        //   "en",
+                        //   setDescription,
+                        //   "en"
+                        // );
                       }}
                       name="description[es]"
                     ></textarea>
@@ -631,12 +631,12 @@ const NewProductComp = ({ currentCookies, lang }) => {
                           ...prev,
                           en: e.target.value,
                         }));
-                        handleAutoTranslate(
-                          e.target.value,
-                          "es",
-                          setDescription,
-                          "es"
-                        );
+                        // handleAutoTranslate(
+                        //   e.target.value,
+                        //   "es",
+                        //   setDescription,
+                        //   "es"
+                        // );
                       }}
                       name="description[en]"
                     ></textarea>
