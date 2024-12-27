@@ -14,7 +14,7 @@ export default async function Home({ params }) {
   const { homeDic, aboutDic, servicesDic, flipBoxes, contactDic, categoryDic } =
     await getDictionary(lang);
   return (
-    <div className=" overflow-x-hidden ">
+    <div className=" overflow-x-hidden">
       <ImageHero homeDic={homeDic} />
 
       <CategoriesComp categoryDic={categoryDic} lang={lang} />
