@@ -58,11 +58,11 @@ const MotionHeaderComponent = ({ localeHeader, lang }) => {
     <>
       {!isLoggedIn ? (
         <motion.nav
-          variants={{ hidden: { y: 0 }, visible: { y: "-110%" } }}
-          animate={hidden ? "hidden" : "visible"}
-          transition={{ duration: 0.35, ease: "easeInOut" }}
+          // variants={{ hidden: { y: 0 }, visible: { y: "-110%" } }}
+          // animate={hidden ? "hidden" : "visible"}
+          // transition={{ duration: 0.35, ease: "easeInOut" }}
           className={`print:hidden flex flex-row items-center justify-between  header-class text-white  text-xl fixed top-0 z-[30]  w-full mx-auto py-3 pl-4 h-[80px] ${
-            !transparency ? "" : "bg-primary bg-opacity-50"
+            !transparency ? "" : "bg-black bg-opacity-50"
           }`}
         >
           <WhiteLogoComponent lang={lang} />

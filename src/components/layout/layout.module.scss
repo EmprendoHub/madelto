@@ -15,7 +15,7 @@
     fill: transparent;
     stroke-dasharray: 188; // Adjusted based on the new circumference
     stroke-dashoffset: 188; // Initially the entire circle is hidden
-    stroke: #4ea4b2;
+    stroke: #ed3237;
     transform-origin: 50% 50%;
     transform: rotate(-270deg);
     transition: all 800ms ease;
@@ -23,7 +23,7 @@
 
   &:hover {
     cursor: pointer;
-    color: #4ea4b2;
+    color: #ed3237;
 
     .background {
       stroke: transparent;

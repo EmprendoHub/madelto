@@ -72,7 +72,7 @@ const ProductosPage = async ({ searchParams, params }) => {
   const pageNumbers = [];
   const offsetNumber = 2;
 
-  const products = data?.products.products;
+  const products = data?.products?.products;
 
   const filteredProductsCount = data?.filteredProductsCount;
   const search =

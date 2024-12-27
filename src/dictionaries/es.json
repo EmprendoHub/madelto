@@ -2,8 +2,8 @@
   "header": {
     "menu": [
       { "title": "Inicio", "url": "/" },
-      { "title": "Acerca", "url": "/acerca" },
-      { "title": "Productos", "url": "/productos" },
+      { "title": "Acerca", "url": "/#acerca" },
+      { "title": "Remolques", "url": "/productos" },
       { "title": "Contacto", "url": "/#contacto" }
     ],
     "searchbar": "Buscar"
@@ -23,33 +23,28 @@
       "state": "Michoacan",
       "zip": "59010",
       "country": "Mexico",
-      "phone": "+52 353-246-4146"
+      "phone": "353-246-4146"
     },
     "addressTwo": {
-      "ubicacion": "Washington",
+      "ubicacion": "Carr. Sahuayo - Cojumatlan No. 1850",
       "addressOne": "",
-      "addressTwo": "Suite D3",
-      "city": "Bainbridge Island",
+      "addressTwo": "No. 1850",
+      "city": "Sahuayo, ",
       "hood": "",
-      "state": "Washington",
-      "zip": "98110",
-      "country": "USA",
-      "phone": "+1 206 979 9807"
+      "state": "Michoacan",
+      "zip": "59000",
+      "country": "Mexico",
+      "phone": "+52 353 104 3350"
     },
     "widgettwo": {
-      "title": "Productos",
+      "title": "Remolques",
       "links": [
-        { "title": "Chiles", "url": "/productos?keyword=chiles" },
-        { "title": "Especias", "url": "/productos?keyword=Especias" },
-        { "title": "Flores", "url": "/productos?keyword=Flores" },
+        { "title": "Dolly", "url": "/productos?keyword=dolly" },
+        { "title": "Plataforma", "url": "/productos?keyword=plataforma" },
+
         {
-          "title": "Nueces de temporada",
-          "url": "/productos?keyword=Nueces de temporada"
-        },
-        { "title": "Hierbas", "url": "/productos?keyword=Hierbas" },
-        {
-          "title": "Granos & Semillas",
-          "url": "/productos?keyword=Granos"
+          "title": "Porta Contenedor",
+          "url": "/productos?keyword=portacontenedor"
         }
       ]
     },
@@ -57,7 +52,7 @@
       "title": "Sitio",
       "links": [
         { "title": "Inicio", "url": "/" },
-        { "title": "Productos", "url": "/productos" },
+        { "title": "Remolques", "url": "/productos" },
         { "title": "Contacto", "url": "/#contacto" },
         { "title": "Nosotros", "url": "/acerca" }
       ]
@@ -70,15 +65,15 @@
       ]
     },
     "footerBar": {
-      "developBy": "Desarrollada por Emprendomex Marketing",
-      "path": "https://www.emprendomex.xyz",
+      "developBy": "Desarrollada por Eggs & Bakey",
+      "path": "https://www.eggsbakey.com",
       "company": "Madelto Remolques",
       "addressOne": "",
-      "addressTwo": "Suite D3",
-      "city": "Bainbridge Island",
-      "state": "Washington",
-      "zip": "98110",
-      "country": "USA",
+      "addressTwo": "",
+      "city": "Sahuayo",
+      "state": "Michoacan",
+      "zip": "59000",
+      "country": "MEXICO",
       "copyright": {
         "pretitle": "Derechos de autor",
         "subtitle": "Todos los derechos reservados.",
@@ -91,40 +86,40 @@
   },
   "homeDic": {
     "imageHero": {
-      "pretitle": "Expertos en comercio",
-      "title": "¡Bienvenido a nuestro ",
-      "titleTwo": "mundo de las especias!",
-      "text": "En Madelto Remolques nos preocupamos por las especias. Nuestro viaje está impulsado por la pasión y la dedicación para brindarle lo mejor. Nos especializamos en facilitar el comercio de una amplia variedad de especias, hierbas, granos, semillas y frutos secos de alta calidad de fuentes confiables en todo el mundo. Desde deliciosas especias hasta ingredientes exóticos, lo tenemos cubierto. Únase a nosotros en esta aventura culinaria y exploremos juntos el mundo de los sabores. Bienvenido a nuestro mundo de especias.",
+      "pretitle": "¡La calidad y durabilidad que tu negocio necesita!",
+      "title": "SEGURIDAD FUERZA Y",
+      "titleTwo": "CONFIANZA EN CADA VIAJE",
+      "text": "En Madelto, diseñamos remolques más fuertes y resistentes, pensados para soportar los desafíos más exigentes.",
       "btnText": "Aprende Más",
       "btnPath": "/about-us"
     },
     "sliders": [
       {
-        "preTitle": "Trading Experts",
-        "title": "Expande Tus",
-        "titleTwo": "Horizontes Comerciales",
-        "text": "Nos especializamos en especias y también obtenemos otros alimentos a pedido. Priorizamos la satisfacción del cliente y buscamos continuamente nuevos productos.",
-        "btnText": "Explorar Productos",
+        "preTitle": "Fabricante Experto",
+        "title": "¡Descubre la fuerza que ",
+        "titleTwo": "mueve tus proyectos!",
+        "text": "En Madelto, nuestros remolques están diseñados con frenos ABS, componentes premium y una resistencia inigualable para asegurar la mejor experiencia en carretera.",
+        "btnText": "Explorar Remolques",
         "btnPath": "/es/productos",
-        "imgPath": "/images/dried-red-chili_seco.webp"
+        "imgPath": "/images/trailer4.webp"
       },
       {
-        "preTitle": "Productos de Calidad",
-        "title": "Red Global de",
-        "titleTwo": "Proveedores",
-        "text": "Ofrecemos productos de calidad a un valor justo de mercado a través de acuerdos que benefician a todas las partes. Nuestra amplia red de proveedores garantiza que usted reciba los productos que necesitas.",
-        "btnText": "Explorar Productos",
+        "preTitle": "Remolques de Calidad",
+        "title": "Calidad y confianza que ",
+        "titleTwo": "te acompañan en cada kilómetro.",
+        "text": "En Madelto diseñamos remolques personalizados para que cada viaje sea seguro y eficiente. ",
+        "btnText": "Explorar Remolques",
         "btnPath": "/es/productos",
-        "imgPath": "/images/condiment_spread.webp"
+        "imgPath": "/images/trailer2.webp"
       },
       {
         "preTitle": "Socio Estratégico",
-        "title": "Transforme tu ",
-        "titleTwo": "experiencia comercial",
-        "text": "Ofrecemos enfoques estratégicos para ampliar su alcance en el mercado y mejorar sus operaciones comerciales a través de una coordinación experta y productos de alta calidad..",
-        "btnText": "Explorar Productos",
+        "title": "Transforma tus ",
+        "titleTwo": "ideas con Madelto",
+        "text": "Somos expertos en la fabricación de remolques personalizados que se adaptan a tus necesidades. Desde diseño hasta calidad, creamos soluciones únicas que destacan por su resistencia y estilo.",
+        "btnText": "Explorar Remolques",
         "btnPath": "/es/productos",
-        "imgPath": "/images/black_pepper_spread.webp"
+        "imgPath": "/images/trailer3.webp"
       }
     ],
     "infiniteSlider": {
@@ -136,7 +131,7 @@
       "boxOne": {
         "title": "Transforma tu Experiencia Comercial con",
         "titleTwo": "Madelto Remolques",
-        "text": "Ofrecemos enfoques estratégicos para expandir tu alcance en el mercado y mejorar las operaciones de tu negocio a través de una coordinación experta y productos de alta calidad.",
+        "text": "Ofrecemos enfoques estratégicos para ampliar su alcance de mercado y mejorar sus operaciones comerciales con remolques de alta calidad de Madelto.",
         "btnText": "Contáctanos",
         "imgUrl": "/images/h1-img2.jpg"
       }
@@ -146,8 +141,8 @@
         "preTitle": "TU SOCIO COMERCIAL DE CONFIANZA",
         "title": "Transforma tu Experiencia Comercial con",
         "titleTwo": "Madelto Remolques",
-        "subtitle": "Nuestro equipo de expertos está listo para optimizar tu cadena de suministro",
-        "text": "Madelto Remolques tiene su sede cerca de Seattle, Washington, en el noroeste del Pacífico de los Estados Unidos. atendiendo a nuestros clientes en toda América del Norte, América Latina, el Caribe, Asia y África. Nuestra cultivada red de proveedores y consumidores, junto con nuestra experiencia y conocimiento del mercado, nos permite negociar acuerdos que reflejan las fluctuaciones actuales del mercado. Nuestros principios rectores de Honestidad, Integridad y Confiabilidad nos permiten ser un mediador justo entre el consumidor y el proveedor. Nuestra filosofía es que en cada transacción debe haber un trato justo.",
+        "subtitle": "Nuestro equipo de expertos está listo para fabricar tu remolque ideal",
+        "text": "Madelto Remolques tiene su sede cerca de Sahuayo, En Madelto, diseñamos y fabricamos remolques a medida, alineados con tus necesidades y estándares de calidad. Cada uno de nuestros productos está pensado para ofrecerte seguridad y confianza en cada kilómetro.",
         "btnText": "Contáctanos",
         "imgUrl": "/images/h1-img2.jpg"
       },
@@ -156,9 +151,9 @@
         "title": "Nos adaptamos según las",
         "titleTwo": "necesidades de tu empresa",
         "subtitle": "Preparados para cualquier desafío, asegurando personalización y adaptabilidad.",
-        "text": "Madelto Remolques opera como corredor en el comercio de especias y otros ingredientes alimentarios. Nuestro éxito se basa en nuestra capacidad para escuchar las necesidades de nuestros clientes y obtener los productos que necesitan. Con más de 20 años de experiencia en el comercio mundial de especias, suministro de ingredientes alimentarios e intercambio de condimentos, hemos construido nuestro negocio creando relaciones a largo plazo basadas en la confianza y la satisfacción del cliente. Nuestra cultivada red de proveedores y consumidores, junto con nuestra experiencia y conocimiento del mercado, nos permite negociar acuerdos que reflejan las fluctuaciones actuales del mercado.",
+        "text": "¡En Madelto Remolques creamos los remolques más fuertes para las cargas más exigentes! Diseñados para ofrecer resistencia, durabilidad y rendimiento en cada kilómetro. Tu carga, nuestra prioridad! En Madelto Remolques, fabricamos unidades a la medida de tus necesidades, garantizando seguridad y confianza en cada viaje.",
         "btnText": "Contáctanos",
-        "imgUrl": "/images/pexels-photo-3183197.jpeg"
+        "imgUrl": "/images/Madelto_cat_06.jpg"
       }
     },
     "teamTalk": {
@@ -177,9 +172,7 @@
       "bullets": [
         "Expansión de Mercado",
         "Garantía de Calidad",
-        "Optimización de la Cadena de Suministro",
-        "Soluciones Comerciales Personalizadas",
-        "Red Global de Proveedores",
+        "Fabricación Comercial Personalizadas",
         "Coordinación Experta"
       ]
     },
@@ -243,9 +236,9 @@
     }
   },
   "productDic": {
-    "preTitle": "COMERCIO INTERNACIONAL",
-    "title": "Granos, Hierbas, ",
-    "titleTwo": "Especias & Condimentos",
+    "preTitle": "REMOLQUES MODELTO",
+    "title": "Resistencia, durabilidad ",
+    "titleTwo": "y rendimiento en cada kilómetro.",
     "single": {
       "packing": "Empaquetado",
       "weight": "Peso",
@@ -270,39 +263,24 @@
     ]
   },
   "categoryDic": {
-    "title": "Especias, Semillas &",
-    "titleTwo": "Nueces de Temporada",
-    "text": "¡Te traemos los sabores del mundo!",
+    "title": "Diseños a medida para ",
+    "titleTwo": "un transporte seguro y eficiente.",
+    "text": "En Madelto, cada remolque está hecho para superar tus expectativas, con calidad, durabilidad y personalización total.",
     "categories": [
       {
-        "title": "Chiles",
-        "catPath": "/es/productos?keyword=Chiles",
-        "imgPath": "/images/chiles.webp"
+        "title": "Dolly",
+        "catPath": "/es/productos?keyword=Dolly",
+        "imgPath": "/images/Madelto_cat_01.jpg"
       },
       {
-        "title": "Nueces de Temporada",
-        "catPath": "/es/productos?keyword=Nueces de temporada",
-        "imgPath": "/images/nuts.webp"
+        "title": "Porta Contenedor",
+        "catPath": "/es/productos?keyword=PortaContenedor",
+        "imgPath": "/images/Madelto_cat_02.jpg"
       },
       {
-        "title": "Especias",
-        "catPath": "/es/productos?keyword=Especias",
-        "imgPath": "/images/especias.webp"
-      },
-      {
-        "title": "Flowers",
-        "catPath": "/es/productos?keyword=Flowers",
-        "imgPath": "/images/flowers.webp"
-      },
-      {
-        "title": "Granos & Semillas",
-        "catPath": "/es/productos?keyword=Granos",
-        "imgPath": "/images/grains.webp"
-      },
-      {
-        "title": "Hierbas",
-        "catPath": "/es/productos?keyword=Hierbas",
-        "imgPath": "/images/hierbas.webp"
+        "title": "Plataforma",
+        "catPath": "/es/productos?keyword=Plataforma",
+        "imgPath": "/images/Madelto_cat_03.jpg"
       }
     ]
   },
@@ -312,47 +290,33 @@
       "bgColorTwo": "pink",
       "preTitle": "¡Llega a Más Clientes!",
       "title": "Alta calidad",
-      "titleTwo": "Variedad de Productos",
+      "titleTwo": "Alta calidad",
       "subTitle": "Aumenta tus Ventas",
       "textTitle": "BIOGRAFÍA",
-      "text": "Proporcionar a nuestros clientes una amplia variedad de productos de primera calidad.",
-      "textTwo": "Productos que cumplen con los más altos estándares de calidad y seguridad.",
+      "text": "Donde la fuerza y seguridad se encuentran, Madelto te lleva más allá. Proporcionamos a nuestros clientes con productos de la mas alta calidad.",
+      "textTwo": "Remolques que cumplen con los más altos estándares de calidad y seguridad.",
       "img": "/images/beach_bonus.jpg",
       "imgTwo": "/images/beach_bonus.jpg",
-      "btnText": "Ver Productos",
-      "btnLink": "/es/productos",
-      "icon": "FaPepperHot"
-    },
-    {
-      "bgColor": "blue",
-      "bgColorTwo": "blue",
-      "preTitle": "Transparencia",
-      "title": "Adaptabilidad cultural",
-      "titleTwo": "Apoyando Comunidades",
-      "subTitle": "Mejora tus Operaciones",
-      "text": "Comprender y respetar las diferencias culturales es esencial para una negociación exitosa en un entorno internacional.",
-      "textTwo": "Mantener altos estándares éticos y una comunicación abierta y honesta con todas las partes interesadas ayuda a construir una sólida y reputación confiable en el mercado internacional.",
-      "img": "/images/GTI-interior.jpeg",
-      "imgTwo": "/images/GTI-interior.jpeg",
-      "btnText": "Ver Productos",
+      "btnText": "Ver Remolques",
       "btnLink": "/es/productos",
       "icon": "FaAward"
     },
+
     {
       "bgColor": "purple",
       "bgColorTwo": "purple",
       "preTitle": "¡Código Personalizado!",
-      "title": "Comercio mundial",
+      "title": "Tecnología de vanguardia",
       "titleTwo": "¡Escala con Confianza!",
       "subTitle": "Soluciones Personalizadas",
       "textTitle": "BIOGRAFÍA",
-      "text": "Innovando y mejorando continuamente nuestros procesos.",
-      "textTwo": "Listos para satisfacer las necesidades cambiantes del mercado global.",
+      "text": "Diseñados para soportar cualquier desafío, nuestros remolques están equipados con tecnología de vanguardia.",
+      "textTwo": "Listos para satisfacer las necesidades cambiantes de tu negocio.",
       "img": "/images/Premio_10_mil_pesos.jpg",
       "imgTwo": "/images/Premio_10_mil_pesos.jpg",
-      "btnText": "Ver Productos",
+      "btnText": "Ver Remolques",
       "btnLink": "/es/productos",
-      "icon": "FaGlobe"
+      "icon": "FaSteam"
     }
   ],
   "aboutDic": {
@@ -424,15 +388,15 @@
       "mapUrl": "https://maps.app.goo.gl/c5twJrvpb3KpXMhH8"
     },
     "addressTwo": {
-      "ubicacion": "Washington",
+      "ubicacion": "Sahuayo",
       "addressOne": "",
-      "addressTwo": "",
-      "city": "Bainbridge Island",
+      "addressTwo": "Suite D3",
+      "city": "Sahuayo",
       "hood": "",
-      "state": "Washington",
-      "zip": "92806",
-      "country": "USA",
-      "phone": "+1 206 979 9807",
+      "state": "Michoacan",
+      "zip": "59000",
+      "country": "MEXICO",
+      "phone": "+52 353 104 3350",
       "mapImage": "/images/hudson_map.webp",
       "mapUrl": "https://maps.app.goo.gl/ZGz6MvactPHiEbPD6"
     },
@@ -452,28 +416,14 @@
       {
         "icon": "/icons/p12-icon-img-1.png",
         "title": "Control de Calidad",
-        "text": "Estamos dedicados a mantener los más altos estándares de calidad para todos nuestros productos. Nuestras rigurosas medidas de control de calidad garantizan que cada grano, hierba, especia y condimento que comercializamos sea seguro, fresco y sabroso.",
+        "text": "Estamos dedicados a mantener los más altos estándares de calidad para todos nuestros productos. Nuestras rigurosas medidas de control de calidad garantizan que cada remolque que fabricamos sea seguro, duradero y eficiente.",
         "btnText": "Cotizar",
         "btnUrl": "/es/cotizar"
       },
       {
         "icon": "/icons/h5-icon-img-2.png",
         "title": "Tiempo de respuesta rápido",
-        "text": "La velocidad no es un lujo; Es una necesidad retener a los clientes, lo entendemos. Estamos orgullosos de nuestros rápidos tiempos de respuesta, lo que garantiza que cumpla con sus objetivos comerciales y aumente su productividad.",
-        "btnText": "Cotizar",
-        "btnUrl": "/es/cotizar"
-      },
-      {
-        "icon": "/icons/p12-icon-img-2.png",
-        "title": "Escalabilidad Inteligente",
-        "text": "A medida que tu negocio crece, también debe crecer la capacidad de tus socios comerciales. Nuestro productos y servicio de alta calidad esta enfocado en ayudar a tu negocio a escalar y expandirse sin restricciones de suministro.",
-        "btnText": "Cotizar",
-        "btnUrl": "/es/cotizar"
-      },
-      {
-        "icon": "/icons/h5-icon-img-1.png",
-        "title": "Sostenibilidad",
-        "text": "Creemos en el abastecimiento responsable y las prácticas sostenibles. Al trabajar estrechamente con nuestros proveedores, nos aseguramos de que nuestros productos se cultiven y cosechen de manera que protejan el medio ambiente y apoyen a las comunidades locales.",
+        "text": "Speed is not a luxury; it's a necessity, we understand that. That's why we pride ourselves on our fast response times, ensuring you meet your business goals and increase your productivity.",
         "btnText": "Cotizar",
         "btnUrl": "/es/cotizar"
       },
@@ -481,13 +431,6 @@
         "icon": "/icons/p12-icon-img-2.png",
         "title": "Integridad",
         "text": "La integridad es el núcleo de nuestro negocio. Realizamos todas nuestras transacciones con honestidad y transparencia, generando confianza con nuestros socios y clientes a través de prácticas comerciales éticas.",
-        "btnText": "Cotizar",
-        "btnUrl": "/es/cotizar"
-      },
-      {
-        "icon": "/icons/h5-icon-img-1.png",
-        "title": "Innovación",
-        "text": "En un mercado global en constante cambio, adoptamos la innovación para mantenernos a la vanguardia. Invertimos continuamente en investigación y desarrollo para mejorar nuestra cadena de suministro, mejorar la calidad del producto y satisfacer las diversas necesidades de nuestros clientes.",
         "btnText": "Cotizar",
         "btnUrl": "/es/cotizar"
       }
@@ -508,7 +451,7 @@
       "orders": "Pedidos",
       "posts": "Publicaciones",
       "newPost": "Nueva Publicación",
-      "products": "Productos",
+      "products": "Remolques",
       "newService": "Nuevo Producto",
       "clients": "Clientes",
       "affiliates": "Afiliados"

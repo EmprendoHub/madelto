@@ -13,7 +13,7 @@ const MainSliderItemsText = ({ item, index }) => {
             initial={{ y: -50, x: -50, opacity: 0 }}
             whileInView={{ y: 0, x: 0, opacity: 1 }}
             transition={{ duration: 0.7 }}
-            className="dark:text-white text-wrap"
+            className="text-primary dark:text-white text-wrap"
           >
             {item.title}
           </motion.span>
@@ -21,7 +21,7 @@ const MainSliderItemsText = ({ item, index }) => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.7 }}
-            className="text-dark"
+            className="text-white dark:text-primary"
           >
             {item.titleTwo}
           </motion.span>
@@ -30,16 +30,16 @@ const MainSliderItemsText = ({ item, index }) => {
           initial={{ x: -50, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8 }}
-          className="text-sm font-secondary mt-2 dark:text-white text-wrap"
+          className="text-sm font-secondary mt-2 text-white text-wrap"
         >
           {item.text}
         </motion.p>
-        <Link href={item.btnPath}>
+        <Link href={item.btnPath} className="w-60 mb-20">
           <motion.button
             initial={{ x: -50, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
-            className="text-sm font-secondary my-4 gap-x-2 flex items-center dark:text-white text-wrap"
+            className="text-sm font-secondary my-4 gap-x-2 flex items-center text-white text-wrap"
           >
             {item.btnText} <FaArrowRightLong />
           </motion.button>

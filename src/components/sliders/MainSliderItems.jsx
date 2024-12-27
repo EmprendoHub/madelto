@@ -8,9 +8,11 @@ const MainSliderItems = ({ item, index }) => {
         src={item.imgPath}
         alt="cover imagen"
         priority
-        loading={`eager`}
-        width={1920}
-        height={1280}
+        loading="eager"
+        fill
+        sizes="100vw"
+        style={{ objectFit: "cover" }}
+        className="w-full h-full"
       />
     </div>
   );

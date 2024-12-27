@@ -1,13 +1,10 @@
 "use client";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import coverImage0 from "../../../public/images/cat_cover_productos_hudson_international.webp";
-import coverChiles from "../../../public/images/chiles_cat_cover.webp";
-import coverNuts from "../../../public/images/dried_fruits_and_nuts_cat_cover.webp";
-import coverFlowers from "../../../public/images/flores_cat_cover.webp";
-import coverGrains from "../../../public/images/grains_and_seeds_cat_cover.webp";
-import coverHerbs from "../../../public/images/herbs_cat_cover.webp";
-import coverSpices from "../../../public/images/spices_cat_cover.webp";
+import coverImage0 from "../../../public/images/trailer2.webp";
+import coverDolly from "../../../public/images/trailer4.webp";
+import coverContainer from "../../../public/images/shipping_container_trailers.jpg";
+import coverPlatform from "../../../public/images/Mechanical-Steering.webp";
 
 const CatCoverComp = ({ searchParams, lang, productDic }) => {
   const keyword = searchParams?.keyword;
@@ -18,83 +15,42 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
   useEffect(() => {
     if (keyword) {
       if (
-        keyword.toLowerCase() === "condiments" ||
-        keyword.toLowerCase() === "condimentos" ||
-        keyword.toLowerCase() === "especias" ||
-        keyword.toLowerCase() === "spices"
+        keyword.toLowerCase() === "dolly" ||
+        keyword.toLowerCase() === "dolly"
       ) {
-        setCoverImage(coverSpices);
+        setCoverImage(coverDolly);
         if (lang === "es") {
-          setCoverTitle("Especias");
-          setCoverTitleTwo(" & Condimentos");
-        }
-        if (lang === "en") {
-          setCoverTitle("Spices");
-          setCoverTitleTwo(" & Condiments");
-        }
-      } else if (
-        keyword.toLowerCase() === "chiles" ||
-        keyword.toLowerCase() === "chilies"
-      ) {
-        setCoverImage(coverChiles);
-        if (lang === "es") {
-          setCoverTitle("Chiles");
+          setCoverTitle("Dolly");
           setCoverTitleTwo("");
         }
         if (lang === "en") {
-          setCoverTitle("Chilies");
+          setCoverTitle("Dolly");
           setCoverTitleTwo("");
         }
       } else if (
-        keyword.toLowerCase() === "flores" ||
-        keyword.toLowerCase() === "flowers"
+        keyword.toLowerCase() === "plataforma" ||
+        keyword.toLowerCase() === "platform"
       ) {
-        setCoverImage(coverFlowers);
+        setCoverImage(coverPlatform);
         if (lang === "es") {
-          setCoverTitle("Flores");
+          setCoverTitle("Plataforma");
           setCoverTitleTwo("");
         }
         if (lang === "en") {
-          setCoverTitle("Flowers");
+          setCoverTitle("Platform");
           setCoverTitleTwo("");
         }
       } else if (
-        keyword.toLowerCase() === "dried fruits and nuts" ||
-        keyword.toLowerCase() === "frutos secos y nueces"
+        keyword.toLowerCase() === "portacontenedor" ||
+        keyword.toLowerCase() === "containertrailer"
       ) {
-        setCoverImage(coverNuts);
+        setCoverImage(coverContainer);
         if (lang === "es") {
-          setCoverTitle("Frutos secos");
-          setCoverTitleTwo(" y nueces");
-        }
-        if (lang === "en") {
-          setCoverTitle("Dried fruits");
-          setCoverTitleTwo(" and nuts");
-        }
-      } else if (
-        keyword.toLowerCase() === "grains and seeds" ||
-        keyword.toLowerCase() === "granos y semillas"
-      ) {
-        setCoverImage(coverGrains);
-        if (lang === "es") {
-          setCoverTitle("Granos");
-          setCoverTitleTwo(" y semillas");
-        }
-        if (lang === "en") {
-          setCoverTitle("Grains");
-          setCoverTitleTwo(" and seeds");
-        }
-      } else if (
-        keyword.toLowerCase() === "hierbas" ||
-        keyword.toLowerCase() === "herbs"
-      ) {
-        setCoverImage(coverHerbs);
-        if (lang === "es") {
-          setCoverTitle("Hierbas");
+          setCoverTitle("Porta Contenedor");
           setCoverTitleTwo("");
         }
         if (lang === "en") {
-          setCoverTitle("Herbs");
+          setCoverTitle("Container Trailer");
           setCoverTitleTwo("");
         }
       }
@@ -107,7 +63,7 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
 
   return (
     <div className="w-full h-[300px] overflow-hidden top-0 relative flex justify-center items-center flex-col ">
-      <div className="absolute bg-primary bg-opacity-40 w-full h-full z-0" />
+      <div className="absolute bg-black bg-opacity-50 w-full h-full z-0" />
       <Image
         src={coverImage}
         width={1920}
@@ -128,7 +84,7 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
           className="  font-primary mb-4"
         >
           <span className="text-white">{coverTitle} </span>
-          <span className=" text-secondary">{coverTitleTwo}</span>
+          <span className=" text-primary">{coverTitleTwo}</span>
         </h2>
       </div>
     </div>

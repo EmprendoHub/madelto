@@ -1,3 +1,4 @@
+// HeroSlider.jsx
 "use client";
 import React, { useState, useEffect } from "react";
 import styles from "./HeroSliderPush.module.scss";
@@ -28,66 +29,65 @@ const HeroSlider = ({ homeDic }) => {
   const handleMouseLeave = () => setIsPaused(false);
 
   return (
-    <>
-      <div
-        className="relative h-full justify-center flex items-center maxmd:flex-col w-full px-40 maxxlg:px-20 maxmd:px-5 maxsm:pl-2 py-20 maxsm:pt-10 bg-white dark:bg-primary  overflow-hidden"
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-      >
-        <div
-          className={`relative  h-[420px]  maxmd:h-[350px] w-1/3 maxmd:w-full ${styles.textSlider}`}
-        >
+    <div
+      className="relative min-h-[70vh] justify-center flex items-center maxmd:flex-col w-full px-40 maxxlg:px-20 maxmd:px-5 maxsm:pl-2 py-20 maxsm:pt-10 overflow-hidden"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
+      <div className={`relative min-h-full w-full ${styles.textSlider}`}>
+        {homeDic.sliders.map((item, idx) => (
+          <div
+            key={item.title}
+            className={`${styles.slide} ${idx === index ? styles.active : ""} ${
+              styles.fromLeft
+            }`}
+          >
+            <MainSliderItemsText item={item} index={idx} />
+          </div>
+        ))}
+      </div>
+      <div className="absolute inset-0 z-0">
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black bg-opacity-70 z-10" />
+
+        {/* Images Container */}
+        <div className={`${styles.imageSlider} absolute inset-0`}>
           {homeDic.sliders.map((item, idx) => (
             <div
-              key={item.title}
+              key={idx}
               className={`${styles.slide} ${
                 idx === index ? styles.active : ""
-              } ${styles.fromLeft}`}
+              } ${styles.fromRight}`}
             >
-              <MainSliderItemsText item={item} index={idx} />
+              <MainSliderItems item={item} index={idx} />
             </div>
           ))}
         </div>
-        <div className="relative flex h-[720px] max2xl:h-[500px] maxxlg:h-[400px]  maxsm:h-[300px] w-2/3 maxmd:w-full">
-          {/* Right Images */}
-          <div className={`${styles.imageSlider} w-full h-full`}>
-            {homeDic.sliders.map((item, idx) => (
-              <div
-                key={idx}
-                className={`${styles.slide} ${
-                  idx === index ? styles.active : ""
-                } ${styles.fromRight}`}
-              >
-                <MainSliderItems item={item} index={idx} />
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <button
-          aria-label="leftArrow"
-          className={`${styles.arrowLeft} right-[220px] bottom-[80px] maxxlg:right-[130px]`}
-          onClick={() =>
-            setIndex(
-              (index - 1 + homeDic.sliders.length) % homeDic.sliders.length
-            )
-          }
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-        >
-          <BsChevronLeft className=" text-4xl" />
-        </button>
-        <button
-          aria-label="rightArrow"
-          className={`${styles.arrowRight} right-[170px] bottom-[80px] maxxlg:right-[80px]`}
-          onClick={() => setIndex((index + 1) % homeDic.sliders.length)}
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-        >
-          <BsChevronRight className=" text-4xl" />
-        </button>
       </div>
-    </>
+
+      <button
+        aria-label="leftArrow"
+        className={`${styles.arrowLeft} text-white right-[220px] bottom-[80px] maxxlg:right-[130px]`}
+        onClick={() =>
+          setIndex(
+            (index - 1 + homeDic.sliders.length) % homeDic.sliders.length
+          )
+        }
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
+        <BsChevronLeft className="text-4xl" />
+      </button>
+      <button
+        aria-label="rightArrow"
+        className={`${styles.arrowRight} text-white right-[170px] bottom-[80px] maxxlg:right-[80px]`}
+        onClick={() => setIndex((index + 1) % homeDic.sliders.length)}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
+        <BsChevronRight className="text-4xl" />
+      </button>
+    </div>
   );
 };
 

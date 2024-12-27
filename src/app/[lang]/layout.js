@@ -16,11 +16,11 @@ export const metadata = {
   metadataBase: new URL("https://www.madelto.com"),
   title: "Madelto Remolques",
   description:
-    "Comercio Internacional de Granos, Hierbas, Especias y Condimentos",
+    "En Madelto, diseñamos remolques más fuertes y resistentes, pensados para soportar los desafíos más exigentes.",
   openGraph: {
     title: "Madelto Remolques",
     description:
-      "Comercio Internacional de Granos, Hierbas, Especias y Condimentos",
+      "En Madelto, diseñamos remolques más fuertes y resistentes, pensados para soportar los desafíos más exigentes.",
     image: "url/opengraph-image.png",
   },
   twitter: {
@@ -28,7 +28,7 @@ export const metadata = {
     site: "@madelto",
     title: "Madelto Remolques",
     description:
-      "Comercio Internacional de Granos, Hierbas, Especias y Condimentos",
+      "En Madelto, diseñamos remolques más fuertes y resistentes, pensados para soportar los desafíos más exigentes.",
     image: "url/opengraph-image.png",
   },
 };
@@ -48,18 +48,18 @@ export default async function RootLayout({ children, params }) {
         className={`body-class relative overflow-x-hidden h-full dark:bg-dark bg-white dark:text-white`}
       >
         <CustomSessionProvider>
-          {/* <HeaderComponent lang={lang} /> */}
+          <HeaderComponent lang={lang} />
 
           {children}
-          {/* <FooterComponent session={session} lang={lang} /> */}
-          {/* <BackToTopButton /> */}
-          {/* {!isLoggedIn && <WhatsAppButton lang={lang} />}
+          <FooterComponent session={session} lang={lang} />
+          <BackToTopButton />
+          {!isLoggedIn && <WhatsAppButton lang={lang} />}
           {isLoggedIn && session?.user.role === "manager" && (
             <div className="fixed z-50 right-0 top-1/2">
               <AdminThemeToggle />
             </div>
           )}
-          <ThemeToggleVertical /> */}
+          <ThemeToggleVertical />
         </CustomSessionProvider>
       </body>
     </html>

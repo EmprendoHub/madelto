@@ -14,8 +14,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@hudson-international-market",
-    title: "Wholesale Import and Export",
+    site: "@madelto",
+    title: "Venta de Remolques",
     description:
       "We are a trading company with more than 20 years in the market, specialized in the exchange of spices, condiments and other food ingredients.",
     image: "url/opengraph-image.png",

@@ -9,11 +9,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor: {
-        primary: "#0D121B",
-        secondary: "#86c3f7",
+        primary: "#ED3237",
+        secondary: "#2e3236",
         accent: "#F0AA44",
         accentTwo: "#F15733",
-        dark: "#2e7cbf",
+        dark: "#2e3236",
         light: "#fad0c6",
       },
       fontFamily: {
@@ -22,11 +22,11 @@ module.exports = {
       },
 
       colors: {
-        primary: "#0D121B",
-        secondary: "#86c3f7",
+        primary: "#ED3237",
+        secondary: "#2e3236",
         accent: "#F0AA44",
         accentTwo: "#F15733",
-        dark: "#2e7cbf",
+        dark: "#2e3236",
         light: "#fad0c6",
       },
       backgroundImage: {

@@ -8,7 +8,7 @@ import WhiteLogoComponent from "../logos/WhiteLogoComponent";
 const FooterMenu = ({ localeFooter, lang }) => {
   return (
     <div
-      className={`relative overflow-x-hidden w-full flex flex-col items-center justify-start`}
+      className={`relative overflow-x-hidden w-full flex flex-col items-center justify-start `}
     >
       <div className="flex maxsm:flex-col items-start justify-between gap-4 w-full px-3">
         <div className="font-secondary text-xs">

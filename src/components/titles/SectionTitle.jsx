@@ -13,14 +13,14 @@ const SectionTitle = ({ title, titleTwo = "", subtitle, className = "" }) => {
         className="  font-primary mb-4"
       >
         <span className="text-primary dark:text-white">{title} </span>
-        <span className=" text-dark">{titleTwo}</span>
+        <span className="text-dark dark:text-primary">{titleTwo}</span>
       </motion.h2>
 
       <motion.div
         initial={{ y: 50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6 }}
-        className="h-[1px] w-[150px] border-b border-black mb-4"
+        className="h-[1px] w-[150px] border-b border-primary mb-4"
       />
       <motion.p
         initial={{ y: 50, opacity: 0 }}
