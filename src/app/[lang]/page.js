@@ -22,7 +22,7 @@ export default async function Home({ params }) {
       <IconGridComp servicesDic={servicesDic} />
       <SingleSideToSide flipBoxes={flipBoxes} homeDic={homeDic} />
       <AboutUsTwo aboutDic={aboutDic} homeDic={homeDic} />
-      <ContactInner homeDic={homeDic} contactDic={contactDic} />
+      <ContactInner homeDic={homeDic} contactDic={contactDic} lang={lang} />
       {/* <ComingSoon /> */}
     </div>
   );

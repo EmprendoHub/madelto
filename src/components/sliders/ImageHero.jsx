@@ -1,5 +1,5 @@
 import React from "react";
-import coverImage from "../../../public/images/pj-equipment-slider.jpg.webp";
+import coverImage from "../../../public/images/pj-equipment-slider.webp";
 import Image from "next/image";
 
 const ImageHero = ({ homeDic }) => {
@@ -17,7 +17,7 @@ const ImageHero = ({ homeDic }) => {
           alt="portfolio image"
           className="object-cover h-full w-full"
         />
-        <div className="absolute top-20 left-20 maxlg:left-5 z-10 text-white text-7xl maxlg:text-5xl font-primary w-[60%] maxsm:w-[80%] ">
+        <div className="absolute top-40 left-20  maxlg:left-5 z-10 text-white text-7xl maxlg:text-5xl font-primary w-[60%] maxsm:w-[80%] ">
           <h2 className="font-primary leading-none mb-3">
             <span className="text-primary dark:text-white font-black">
               {homeDic.imageHero.title}{" "}

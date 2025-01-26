@@ -2,7 +2,7 @@
 import { motion, useInView, useScroll } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
-import coverImage from "../../../public/images/acercade.jpg";
+import coverImage from "../../../public/images/acercade.webp";
 
 import DoubleSideToSide from "../home/DoubleSideToSide";
 
@@ -20,12 +20,12 @@ const AboutUsTwo = ({ aboutDic, homeDic }) => {
 
   return (
     <div id="acerca">
-      <div className="w-full h-[400px] overflow-hidden top-0 relative flex justify-center items-center flex-col ">
+      <div className="w-full h-[600px] overflow-hidden top-0 relative flex justify-center items-center flex-col ">
         <div className="absolute bg-dark bg-opacity-20 w-full h-full z-0" />
         <Image
           src={coverImage}
           width={1920}
-          height={400}
+          height={600}
           priority
           loading="eager"
           alt="about us cover image"

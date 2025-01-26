@@ -47,7 +47,7 @@ const DoubleSideToSide = ({ homeDic }) => {
               </motion.div>
             </div>
             {/* Diamonds */}
-            <div className="relative maxmd:ml-5 w-5/12 maxmd:w-full">
+            <div className="relative maxmd:ml-5 w-5/12 maxmd:w-[95%] maxmd:pt-32">
               <div className="relative flex flex-col w-full rotate-45">
                 <motion.div
                   initial={{ opacity: 0, scale: 0 }}
@@ -92,7 +92,7 @@ const DoubleSideToSide = ({ homeDic }) => {
         <div className="h-full max-w-5xl mx-auto m-8">
           <div className="flex maxmd:flex-wrap h-[700px] maxmd:h-full items-center justify-center">
             {/* Text */}
-            <div className="w-5/12 maxmd:w-full p-6">
+            <div className="w-5/12 maxmd:w-full p-6 maxmd:pt-32">
               <div className="rotate-45">
                 <motion.div
                   initial={{ opacity: 0, scale: 0 }}

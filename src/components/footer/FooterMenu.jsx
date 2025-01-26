@@ -14,11 +14,11 @@ const FooterMenu = ({ localeFooter, lang }) => {
         <div className="font-secondary text-xs">
           <WhiteLogoComponent lang={lang} />
           <p className=" mt-2">{localeFooter.addressTwo.ubicacion}</p>
-          <p className=" mt-2">{localeFooter.addressTwo.addressOne}</p>
+          <p className=" mt-0">{localeFooter.addressTwo.addressOne}</p>
           <p className="">
-            {localeFooter.addressTwo.city}, {localeFooter.addressTwo.hood}
+            {localeFooter.addressTwo.city} {localeFooter.addressTwo.hood}
           </p>
-          <p className=" mb-3">
+          <p className=" mb-0">
             {localeFooter.addressTwo.state}, {localeFooter.addressTwo.zip}
           </p>
           <p className=" mb-3">{localeFooter.addressTwo.phone}</p>

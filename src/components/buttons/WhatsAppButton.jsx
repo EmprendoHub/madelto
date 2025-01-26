@@ -18,7 +18,7 @@ const WhatsAppButton = ({ lang }) => {
           target="_blank"
           aria-label="WhatsApp"
         >
-          <IoLogoWhatsapp className="text-[2.5rem] hover:scale-110 ease-in-out duration-300 text-dark dark:text-emerald-700" />
+          <IoLogoWhatsapp className="text-[2.5rem] hover:scale-110 ease-in-out duration-300 text-emerald-700" />
         </Link>
       ) : (
         <Link
@@ -27,7 +27,7 @@ const WhatsAppButton = ({ lang }) => {
           target="_blank"
           aria-label="WhatsApp"
         >
-          <IoLogoWhatsapp className="text-[2.5rem] hover:scale-110 ease-in-out duration-300 text-dark dark:text-emerald-700" />
+          <IoLogoWhatsapp className="text-[2.5rem] hover:scale-110 ease-in-out duration-300 text-emerald-700" />
         </Link>
         // <Link
         //   className="fixed bottom-6 z-[20] cursor-pointer left-5 print:hidden"
