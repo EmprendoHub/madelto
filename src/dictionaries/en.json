@@ -88,7 +88,7 @@
       "pretitle": "The quality and durability that your business needs!",
       "title": "SECURITY STRENGTH AND ",
       "titleTwo": "CONFIDENCE ON EVERY TRIP",
-      "text": "At Madelto, we design stronger, more durable trailers, designed to withstand the most demanding challenges.",
+      "text": "Boost your company's efficiency with Madelto trailers: powerful, durable, and with the capacity your cargo needs.",
       "btnText": "Learn More",
       "btnPath": "/about-us"
     },
@@ -269,17 +269,20 @@
       {
         "title": "Dolly",
         "catPath": "/en/#productos?keyword=Dolly",
-        "imgPath": "/images/Madelto_cat_01.jpg"
+        "imgPath": "/images/Madelto_cat_01.jpg",
+        "btnText": "More Details"
       },
       {
         "title": "Container Trailer",
         "catPath": "/en/#productos?keyword=ContainerTrailer",
-        "imgPath": "/images/Madelto_cat_02.jpg"
+        "imgPath": "/images/Madelto_cat_02.jpg",
+        "btnText": "More Details"
       },
       {
         "title": "Platform",
         "catPath": "/en/#productos?keyword=Plataforma",
-        "imgPath": "/images/Madelto_cat_03.jpg"
+        "imgPath": "/images/Madelto_cat_03.jpg",
+        "btnText": "More Details"
       }
     ]
   },
@@ -320,8 +323,56 @@
   ],
   "aboutDic": {
     "hero": {
-      "title": "About Us",
-      "subtitle": "Who we are..."
+      "title": "MADELTO TRAILERS",
+      "subtitle": "We are a family-owned company founded in 2018, dedicated to manufacturing platforms, container chassis, and converters to the highest quality standards. We believe in quality workmanship, innovation, and the value of our people. Every piece of equipment is designed to empower carriers to grow, move forward safely, and go further."
+    },
+    "contactForm": {
+      "title": "Chose the experts, chose Madelto Trailers",
+      "name": "Name",
+      "namePlaceholder": "Enter your name",
+      "phone": "Phone",
+      "phonePlaceholder": "Enter your phone number",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "message": "Message",
+      "messagePlaceholder": "Enter your message",
+      "location": "State",
+      "locationPlaceholder": "Select your state",
+      "btnText": "Send via WhatsApp",
+      "states": [
+        "Aguascalientes",
+        "Baja California",
+        "Baja California Sur",
+        "Campeche",
+        "Chiapas",
+        "Chihuahua",
+        "Coahuila",
+        "Colima",
+        "Durango",
+        "Guanajuato",
+        "Guerrero",
+        "Hidalgo",
+        "Jalisco",
+        "Mexico",
+        "Mexico City",
+        "Michoacán",
+        "Morelos",
+        "Nayarit",
+        "Nuevo León",
+        "Oaxaca",
+        "Puebla",
+        "Querétaro",
+        "Quintana Roo",
+        "San Luis Potosí",
+        "Sinaloa",
+        "Sonora",
+        "Tabasco",
+        "Tamaulipas",
+        "Tlaxcala",
+        "Veracruz",
+        "Yucatán",
+        "Zacatecas"
+      ]
     },
     "founder": {
       "name": "Salvador Sandoval",

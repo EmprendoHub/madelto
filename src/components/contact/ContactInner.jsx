@@ -7,6 +7,7 @@ import coverImage from "../../../public/images/contact_us.webp";
 const ContactInner = ({ homeDic, contactDic, lang }) => {
   return (
     <div className="relative h-full  overflow-x-hidden" id="contacto">
+      <ContactComponent contactDic={contactDic} homeDic={homeDic} />
       <div className="w-full h-[400px] overflow-hidden top-0 relative flex justify-center items-center flex-col ">
         <div className="absolute bg-dark bg-opacity-40 w-full h-full z-0" />
         <Image
@@ -26,10 +27,6 @@ const ContactInner = ({ homeDic, contactDic, lang }) => {
         </div>
       </div>
 
-      <ContactComponent contactDic={contactDic} homeDic={homeDic} />
-      <p className="uppercase font-secondary tracking-widest text-sm text-gray-500 text-center mb-5">
-        {lang === "es" ? "Ubicación" : "Location"}
-      </p>
       <div className="w-[100%] px-3map-class">
         <iframe
           className="border-none"

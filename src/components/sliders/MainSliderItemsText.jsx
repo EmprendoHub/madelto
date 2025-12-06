@@ -10,8 +10,8 @@ const MainSliderItemsText = ({ item, index }) => {
       <div className="w-full h-full relative grid grid-cols-1 items-start ">
         <h2 className="font-primary text-7xl maxxlg:text-5xl maxmd:text-4xl flex flex-wrap items-center gap-x-3">
           <motion.span
-            initial={{ y: -50, x: -50, opacity: 0 }}
-            whileInView={{ y: 0, x: 0, opacity: 1 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             transition={{ duration: 0.7 }}
             className="text-primary dark:text-white text-wrap"
           >

@@ -89,15 +89,15 @@
       "pretitle": "¡La calidad y durabilidad que tu negocio necesita!",
       "title": "SEGURIDAD FUERZA Y",
       "titleTwo": "CONFIANZA EN CADA VIAJE",
-      "text": "En Madelto, diseñamos remolques más fuertes y resistentes, pensados para soportar los desafíos más exigentes.",
+      "text": "Impulsa la eficiencia de tu empresa con remolques Madelto: potentes, duraderos y con la capacidad que tu carga necesita.",
       "btnText": "Aprende Más",
       "btnPath": "/about-us"
     },
     "sliders": [
       {
         "preTitle": "Fabricante Experto",
-        "title": "¡Descubre la fuerza que ",
-        "titleTwo": "mueve tus proyectos!",
+        "title": "Descubre la fuerza que ",
+        "titleTwo": "mueve tus proyectos",
         "text": "En Madelto, nuestros remolques están diseñados con frenos ABS, componentes premium y una resistencia inigualable para asegurar la mejor experiencia en carretera.",
         "btnText": "Explorar Remolques",
         "btnPath": "/es/#productos",
@@ -270,17 +270,20 @@
       {
         "title": "Dolly",
         "catPath": "/es/#productos?keyword=Dolly",
-        "imgPath": "/images/Madelto_cat_01.jpg"
+        "imgPath": "/images/Madelto_cat_01.jpg",
+        "btnText": "Más Detalles"
       },
       {
         "title": "Porta Contenedor",
         "catPath": "/es/#productos?keyword=PortaContenedor",
-        "imgPath": "/images/Madelto_cat_02.jpg"
+        "imgPath": "/images/Madelto_cat_02.jpg",
+        "btnText": "Más Detalles"
       },
       {
         "title": "Plataforma",
         "catPath": "/es/#productos?keyword=Plataforma",
-        "imgPath": "/images/Madelto_cat_03.jpg"
+        "imgPath": "/images/Madelto_cat_03.jpg",
+        "btnText": "Más Detalles"
       }
     ]
   },
@@ -321,8 +324,56 @@
   ],
   "aboutDic": {
     "hero": {
-      "title": "Acerca de nosotros",
-      "subtitle": "Quienes somos..."
+      "title": "MADELTO REMOLQUES",
+      "subtitle": "Es una empresa familiar fundada en 2018, dedicada a fabricar plataformas, portacontenedores y convertidores con altos estándares de calidad. Creemos en el trabajo bien hecho, la innovación y el valor de nuestra gente. Cada equipo está hecho para impulsar a los transportistas a crecer, avanzar con seguridad y llegar más lejos."
+    },
+    "contactForm": {
+      "title": "Elige a los expertos, elige Madelto Remolques",
+      "name": "Nombre",
+      "namePlaceholder": "Ingresa tu nombre",
+      "phone": "Teléfono",
+      "phonePlaceholder": "Ingresa tu teléfono",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "Ingresa tu email",
+      "message": "Mensaje",
+      "messagePlaceholder": "Ingresa tu mensaje",
+      "location": "Estado",
+      "locationPlaceholder": "Selecciona tu estado",
+      "btnText": "Enviar por WhatsApp",
+      "states": [
+        "Aguascalientes",
+        "Baja California",
+        "Baja California Sur",
+        "Campeche",
+        "Chiapas",
+        "Chihuahua",
+        "Coahuila",
+        "Colima",
+        "Durango",
+        "Guanajuato",
+        "Guerrero",
+        "Hidalgo",
+        "Jalisco",
+        "México",
+        "Ciudad de México",
+        "Michoacán",
+        "Morelos",
+        "Nayarit",
+        "Nuevo León",
+        "Oaxaca",
+        "Puebla",
+        "Querétaro",
+        "Quintana Roo",
+        "San Luis Potosí",
+        "Sinaloa",
+        "Sonora",
+        "Tabasco",
+        "Tamaulipas",
+        "Tlaxcala",
+        "Veracruz",
+        "Yucatán",
+        "Zacatecas"
+      ]
     },
     "founder": {
       "name": "Salvador Sandoval",

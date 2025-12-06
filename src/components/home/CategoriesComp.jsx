@@ -29,9 +29,15 @@ const CategoriesComp = ({ categoryDic, lang }) => {
                 alt={category.title}
                 className="w-full h-[500px] maxxlg:h-[350px] object-cover "
               />
-              <span className="absolute rounded-full z-50 text-white uppercase py-2 px-8  maxmd:text-xl top-[40%]  font-primary tracking-wide">
+              <span className="absolute rounded-full z-10 text-white uppercase py-2 px-8 text-4xl maxmd:text-4xl top-[40%]  font-primary tracking-wide">
                 {category.title}
               </span>
+              <button
+                aria-label="Explore Category"
+                className="absolute z-10 bottom-24 bg-primary px-6 py-2 text-white flex items-center justify-center uppercase text-sm tracking-widest mx-auto"
+              >
+                {category.btnText}
+              </button>
               {/* overlay */}
               <div className="min-h-[100%] absolute z-[1] min-w-[100%] top-0 left-0 bg-black bg-opacity-40" />
             </div>

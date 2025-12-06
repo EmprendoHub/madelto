@@ -1,10 +1,10 @@
 "use client";
-import { motion, useInView, useScroll } from "framer-motion";
+import { useInView, useScroll } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
 import coverImage from "../../../public/images/acercade.webp";
 
-import DoubleSideToSide from "../home/DoubleSideToSide";
+// import DoubleSideToSide from "../home/DoubleSideToSide";
 
 const AboutUsTwo = ({ aboutDic, homeDic }) => {
   const containerRef = useRef();
@@ -21,7 +21,7 @@ const AboutUsTwo = ({ aboutDic, homeDic }) => {
   return (
     <div id="acerca">
       <div className="w-full h-[600px] overflow-hidden top-0 relative flex justify-center items-center flex-col ">
-        <div className="absolute bg-dark bg-opacity-20 w-full h-full z-0" />
+        <div className="absolute bg-dark bg-opacity-60 w-full h-full z-0" />
         <Image
           src={coverImage}
           width={1920}
@@ -31,14 +31,14 @@ const AboutUsTwo = ({ aboutDic, homeDic }) => {
           alt="about us cover image"
           className="object-cover h-full w-full"
         />
-        <div className="absolute z-10 text-white text-5xl maxsm:text-3xl  font-primary w-[50%] maxsm:w-[80%] text-center">
-          <p className="uppercase text-xs tracking-widest font-secondary">
+        <div className="absolute z-10 text-white   font-primary w-[50%] maxsm:w-[80%] text-center">
+          <h3 className="uppercase text-5xl maxsm:text-3xl tracking-widest mb-5">
             {aboutDic.hero.title}
-          </p>
-          <h3>{aboutDic.hero.subtitle}</h3>
+          </h3>
+          <p className="font-secondary">{aboutDic.hero.subtitle}</p>
         </div>
       </div>
-      <DoubleSideToSide homeDic={homeDic} />
+      {/* <DoubleSideToSide homeDic={homeDic} /> */}
     </div>
   );
 };

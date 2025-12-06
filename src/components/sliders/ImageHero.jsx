@@ -17,22 +17,22 @@ const ImageHero = ({ homeDic }) => {
           alt="portfolio image"
           className="object-cover h-full w-full"
         />
-        <div className="absolute top-40 left-20  maxlg:left-5 z-10 text-white text-7xl maxlg:text-5xl font-primary w-[60%] maxsm:w-[80%] ">
+        <div className="absolute top-40 left-20  maxlg:left-5 z-10 text-white text-8xl maxlg:text-7xl maxmd:text-6xl font-primary w-[60%] maxmd:w-[70%] maxsm:w-[80%] ">
           <h2 className="font-primary leading-none mb-3">
-            <span className="text-primary dark:text-white font-black">
+            <span className="text-primary dark:text-white font-black ">
               {homeDic.imageHero.title}{" "}
             </span>
-            <span className="text-white dark:text-primary font-black">
+            <span className="text-white dark:text-primary font-black ">
               {homeDic.imageHero.titleTwo}
             </span>
           </h2>
-          <p className="font-secondary text-lg font-medium mb-1 text-white">
+          <p className="font-secondary text-4xl maxlg:text-3xl maxmd:text-2xl font-medium mb-1 text-white">
             {homeDic.imageHero.pretitle}
           </p>
           <p className="font-secondary text-sm mb-1">
             {homeDic.imageHero.subtitle}
           </p>
-          <div className="text-gray-300 font-secondary text-sm mb-8  maxmd:text-sm flex flex-col gap-3">
+          <div className="text-gray-300 font-secondary  mb-8  text-2xl maxlg:text-xl maxmd:text-lg flex flex-col gap-3">
             <p className=" flex items-center gap-2">{homeDic.imageHero.text}</p>
           </div>
           {/* <button

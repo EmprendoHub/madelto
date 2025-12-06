@@ -61,40 +61,40 @@ const MotionHeaderComponent = ({ localeHeader, lang }) => {
           // variants={{ hidden: { y: 0 }, visible: { y: "-110%" } }}
           // animate={hidden ? "hidden" : "visible"}
           // transition={{ duration: 0.35, ease: "easeInOut" }}
-          className={`print:hidden flex flex-row items-center justify-between  header-class text-white  text-xl fixed top-0 z-[30]  w-full mx-auto py-3 pl-4 h-[80px] ${
+          className={`print:hidden flex flex-row items-center justify-center  header-class text-white  text-xl fixed top-0 z-[30] w-full  mx-auto py-3 pl-4 h-[80px] ${
             !transparency ? "" : "bg-black bg-opacity-50"
           }`}
         >
-          <WhiteLogoComponent lang={lang} />
-          <motion.div
-            variants={containerVariants}
-            initial="initial"
-            animate="open"
-            exit="initial"
-            className="flex maxmd:hidden w-8/12 flex-row items-center justify-between font-lato tracking-widest gap-x-3  "
-          >
-            {localeHeader.menu?.map((link, index) => {
-              return (
-                <div key={index} className="">
-                  <MobileNavLink
-                    title={link.title}
-                    href={link.url}
-                    lang={lang}
-                  />
-                </div>
-              );
-            })}
-          </motion.div>
+          <div className="max-w-4xl w-full flex flex-row items-center justify-center gap-x-4 ">
+            <WhiteLogoComponent lang={lang} />
+            <motion.div
+              variants={containerVariants}
+              initial="initial"
+              animate="open"
+              exit="initial"
+              className="flex maxmd:hidden w-8/12 flex-row items-center justify-center font-lato tracking-widest gap-x-3  "
+            >
+              {localeHeader.menu?.map((link, index) => {
+                return (
+                  <div key={index} className="">
+                    <MobileNavLink
+                      title={link.title}
+                      href={link.url}
+                      lang={lang}
+                    />
+                  </div>
+                );
+              })}
+              <LocaleToggleFlags />
+            </motion.div>
+          </div>
+
           <div className="relative flex items-center justify-center ">
             <MobileMenuComponent
               className={"hidden maxmd:block"}
               lang={lang}
               localeHeader={localeHeader}
             />
-
-            <span className="pr-4 text-sm relative z-10">
-              <LocaleToggleFlags />
-            </span>
           </div>
         </motion.nav>
       ) : (

@@ -3,21 +3,21 @@ import React from "react";
 import {
   FaFacebookF,
   FaLinkedin,
-  FaTiktok,
+  FaInstagram,
   FaWhatsapp,
   FaYoutube,
 } from "react-icons/fa6";
 import styles from "./layout.module.scss";
-import Image from "next/image";
-import ContactUsComponent from "../contact/ContactUsComponent";
+// import Image from "next/image";
+// import ContactUsComponent from "../contact/ContactUsComponent";
 
 const ContactComponent = ({ contactDic, homeDic }) => {
   return (
     <div className="bg-white dark:bg-primary py-12 px-40 maxxlg:px-20 maxlg:px-5 h-full overflow-x-hidden ">
       {/* Title */}
       <div className="w-full flex flex-col h-full gap-x-5 maxmd:flex-col justify-center items-center mb-2">
-        <div className="w-1/2 maxmd:w-full pr-10 maxmd:px-1 maxmd:mt-10  ">
-          <p className="uppercase font-secondary tracking-widest text-sm text-gray-500 text-center">
+        <div className="w-1/2 maxmd:w-full  maxmd:px-1 maxmd:mt-10  ">
+          <p className="uppercase font-secondary tracking-widest text-sm text-gray-700 dark:text-gray-300 text-center">
             {contactDic.contactInfo.pretitle}
           </p>
           <h2 className="text-3xl text-gray-800 dark:text-gray-300 font-primary leading-none mb-3 text-center">
@@ -26,9 +26,9 @@ const ContactComponent = ({ contactDic, homeDic }) => {
           </h2>
           <p className="text-center text-xl maxsm:text-3xl font-primary mb-1">
             <span>{contactDic.contactInfo.title} </span>
-            <span className="text-dark">{contactDic.contactInfo.titleTwo}</span>
+            <span className="">{contactDic.contactInfo.titleTwo}</span>
           </p>
-          <p className="text-center font-secondary italic maxlg:text-sm">
+          <p className="text-center font-secondary italic maxlg:text-base">
             {contactDic.contactInfo.subtitle}
           </p>
         </div>
@@ -39,7 +39,7 @@ const ContactComponent = ({ contactDic, homeDic }) => {
           <div className=" flex items-center justify-end flex-col mt-5 gap-3">
             {/* Social media */}
             <div className="w-1/2">
-              <p className="text-[12px] text-center uppercase font-secondary text-gray-500">
+              <p className="text-base text-center uppercase font-secondary text-gray-700 dark:text-gray-300 tracking-wider">
                 {contactDic.contactInfo.social}
               </p>
               <div className="relative flex items-center justify-center w-full">
@@ -72,13 +72,13 @@ const ContactComponent = ({ contactDic, homeDic }) => {
                       />
                     </g>
                   </svg>
-                  <FaFacebookF className="absolute text-xs group-hover:text-secondary ease-in-out duration-700 z-0" />
+                  <FaFacebookF className="absolute text-2xl hover:dark:text-white ease-in-out duration-700 z-0" />
                 </Link>
                 {/* LinkedIn */}
                 <Link
                   aria-label="LinkedIn"
                   target="_blank"
-                  href={"https://www.linkedin.com/company/modelto"}
+                  href={"https://www.instagram.com/m.madelto/"}
                   className="relative flex items-center justify-center group"
                 >
                   <svg className={`${styles.circle}`}>
@@ -101,7 +101,7 @@ const ContactComponent = ({ contactDic, homeDic }) => {
                       />
                     </g>
                   </svg>
-                  <FaLinkedin className="absolute text-xs group-hover:text-secondary ease-in-out duration-700 z-0" />
+                  <FaInstagram className="absolute text-2xl hover:dark:text-white ease-in-out duration-700 z-0" />
                 </Link>
                 {/* WhatsApp */}
                 <Link
@@ -130,16 +130,16 @@ const ContactComponent = ({ contactDic, homeDic }) => {
                       />
                     </g>
                   </svg>
-                  <FaWhatsapp className="absolute text-xs group-hover:text-dark ease-in-out duration-700 z-0" />
+                  <FaWhatsapp className="absolute text-2xl hover:dark:text-white ease-in-out duration-700 z-0" />
                 </Link>
               </div>
             </div>
             <div className="w-full ">
-              <p className="text-[12px] text-center uppercase font-secondary text-gray-500">
+              <p className="text-[14px] text-center uppercase font-secondary text-gray-700 dark:text-gray-300 tracking-wider mb-2">
                 {contactDic.contactInfo.questions}
               </p>
               <Link href={"mailto:m.madeltoo@gmail.com"}>
-                <p className="text-center text-3xl text-primary hover:text-secondary ease-in-out duration-700">
+                <p className="text-center text-3xl text-primary hover:text-secondary hover:dark:text-white ease-in-out duration-700">
                   m.madeltoo@gmail.com
                 </p>
               </Link>
