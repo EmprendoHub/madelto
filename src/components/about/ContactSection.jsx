@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
-import coverImage from "../../../public/images/trailer4.webp";
+import coverImage from "../../../public/images/REMOLQUE.jpg";
 
 const ContactSection = ({ aboutDic, homeDic }) => {
   const [formData, setFormData] = useState({

@@ -8,6 +8,7 @@ import ContactInner from "@/components/contact/ContactInner";
 // import ComingSoon from "@/components/layout/ComingSoon";
 import AboutUsTwo from "@/components/about/AboutUsTwo";
 import ContactSection from "@/components/about/ContactSection";
+import VideoHero from "@/components/sliders/VideoHero";
 // import ImageToSideText from "@/components/home/ImageToSideText";
 
 export default async function Home({ params }) {
@@ -16,7 +17,7 @@ export default async function Home({ params }) {
     await getDictionary(lang);
   return (
     <div className=" overflow-x-hidden">
-      <ImageHero homeDic={homeDic} />
+      <VideoHero homeDic={homeDic} />
 
       <CategoriesComp categoryDic={categoryDic} lang={lang} />
       <ContactSection aboutDic={aboutDic} />
