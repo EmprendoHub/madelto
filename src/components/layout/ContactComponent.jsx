@@ -138,9 +138,9 @@ const ContactComponent = ({ contactDic, homeDic }) => {
               <p className="text-[14px] text-center uppercase font-secondary text-gray-700 dark:text-gray-300 tracking-wider mb-2">
                 {contactDic.contactInfo.questions}
               </p>
-              <Link href={"mailto:m.madeltoo@gmail.com"}>
-                <p className="text-center text-3xl text-primary hover:text-secondary hover:dark:text-white ease-in-out duration-700">
-                  m.madeltoo@gmail.com
+              <Link href={"mailto:ventas@madelto.com"}>
+                <p className="text-center text-3xl text-primary hover:text-secondary hover:dark:text-white ease-in-out duration-700 ">
+                  ventas@madelto.com
                 </p>
               </Link>
             </div>

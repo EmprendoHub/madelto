@@ -140,7 +140,7 @@ const MobileMenuComponent = ({ className, lang, localeHeader }) => {
                   aria-label="Instagram"
                   target="_blank"
                   href={"https://www.instagram.com/m.madelto/"}
-                  className="relative flex items-center justify-center group"
+                  className="relative flex items-center justify-center group "
                 >
                   <svg className={`${styles.circle}`}>
                     <g>
