@@ -15,23 +15,23 @@
       "spinText": " Desarrollador Full Stack y Diseñador Gráfico UX/UI"
     },
     "address": {
-      "ubicacion": "Michoacan",
+      "ubicacion": "Michoacán",
       "addressOne": "Calle Colima 61",
       "addressTwo": "",
       "city": "Sahuayo",
       "hood": "Las Brisas",
-      "state": "Michoacan",
+      "state": "Michoacán",
       "zip": "59010",
       "country": "Mexico",
       "phone": "353-246-4146"
     },
     "addressTwo": {
-      "ubicacion": "Carr. Sahuayo - Cojumatlan No. 1850",
+      "ubicacion": "Carr. Sahuayo - Cojumatlán No. 1850",
       "addressOne": "",
       "addressTwo": "No. 1850",
       "city": "Sahuayo, ",
       "hood": "",
-      "state": "Michoacan",
+      "state": "Michoacán",
       "zip": "59000",
       "country": "Mexico",
       "phone": "+52 353 104 3350"
@@ -71,7 +71,7 @@
       "addressOne": "",
       "addressTwo": "",
       "city": "Sahuayo",
-      "state": "Michoacan",
+      "state": "Michoacán",
       "zip": "59000",
       "country": "MEXICO",
       "copyright": {
@@ -426,12 +426,12 @@
       "mapUrl": "https://maps.app.goo.gl/NyDTDXZcRHdmFnpM7"
     },
     "address": {
-      "ubicacion": "Michoacan",
+      "ubicacion": "Michoacán",
       "addressOne": "Calle Colima 61",
       "addressTwo": "",
       "city": "Sahuayo",
       "hood": "Las Brisas",
-      "state": "Michoacan",
+      "state": "Michoacán",
       "zip": "59010",
       "country": "Mexico",
       "phone": "+1 206 979 9807",
@@ -444,7 +444,7 @@
       "addressTwo": "Suite D3",
       "city": "Sahuayo",
       "hood": "",
-      "state": "Michoacan",
+      "state": "Michoacán",
       "zip": "59000",
       "country": "MEXICO",
       "phone": "+52 353 104 3350",
@@ -474,7 +474,7 @@
       {
         "icon": "/icons/h5-icon-img-2.png",
         "title": "Tiempo de respuesta rápido",
-        "text": "Speed is not a luxury; it's a necessity, we understand that. That's why we pride ourselves on our fast response times, ensuring you meet your business goals and increase your productivity.",
+        "text": "La velocidad no es un lujo; es una necesidad, lo entendemos. Por eso nos enorgullecemos de nuestros rápidos tiempos de respuesta, lo que garantiza que usted alcance sus objetivos comerciales y aumente su productividad.",
         "btnText": "Cotizar",
         "btnUrl": "/es/cotizar"
       },
