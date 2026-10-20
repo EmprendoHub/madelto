@@ -78,7 +78,7 @@ const ContactComponent = ({ contactDic, homeDic }) => {
                 <Link
                   aria-label="LinkedIn"
                   target="_blank"
-                  href={"https://www.instagram.com/m.madelto/"}
+                  href={"https://www.instagram.com/madelto_remolques/"}
                   className="relative flex items-center justify-center group"
                 >
                   <svg className={`${styles.circle}`}>

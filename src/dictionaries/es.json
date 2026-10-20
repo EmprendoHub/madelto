@@ -271,19 +271,25 @@
         "title": "Dolly",
         "catPath": "/es/#productos?keyword=Dolly",
         "imgPath": "/images/Madelto_cat_01.jpg",
-        "btnText": "Más Detalles"
+        "btnText": "Más Detalles",
+        "ModalImage": "/images/dolly_1.png",
+        "ModalDescription": "El dolly es un equipo versátil y esencial para transportar cargas pesadas. Está diseñado para proporcionar estabilidad y soporte, permitiendo el movimiento seguro y eficiente de la carga. Con su construcción robusta y rendimiento confiable, el dolly es una herramienta valiosa para diversas industrias, asegurando que los bienes se transporten con facilidad y seguridad."
       },
       {
         "title": "Porta Contenedor",
         "catPath": "/es/#productos?keyword=PortaContenedor",
         "imgPath": "/images/Madelto_cat_02.jpg",
-        "btnText": "Más Detalles"
+        "btnText": "Más Detalles",
+        "ModalImage": "/images/aba_1.png",
+        "ModalDescription": "El remolque portacontenedores es un vehículo especializado diseñado para el transporte de contenedores de envío. Cuenta con un chasis resistente y mecanismos de bloqueo seguros para garantizar el transporte seguro de los contenedores a largas distancias. Con su diseño eficiente y rendimiento confiable, el remolque portacontenedores es una herramienta esencial para empresas de logística y transporte, permitiendo el movimiento fluido de mercancías a través de diversas ubicaciones."
       },
       {
         "title": "Plataforma",
         "catPath": "/es/#productos?keyword=Plataforma",
         "imgPath": "/images/Madelto_cat_03.jpg",
-        "btnText": "Más Detalles"
+        "btnText": "Más Detalles",
+        "ModalImage": "/images/plana_1.png",
+        "ModalDescription": "El remolque plataforma es un vehículo versátil y robusto diseñado para transportar cargas grandes y pesadas. Cuenta con un diseño de plataforma plana que permite una fácil carga y descarga de la mercancía, lo que lo hace ideal para una amplia gama de aplicaciones. Con su construcción duradera y rendimiento confiable, el remolque plataforma es una herramienta esencial para industrias como la construcción, la agricultura y la logística, asegurando el transporte seguro y eficiente de los bienes."
       }
     ]
   },
