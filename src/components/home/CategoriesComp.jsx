@@ -6,6 +6,7 @@ import React, { useEffect, useState } from "react";
 
 const CategoriesComp = ({ categoryDic, lang }) => {
   const [selectedCategory, setSelectedCategory] = useState(null);
+  const [activeTab, setActiveTab] = useState("basic");
 
   const closeModal = () => setSelectedCategory(null);
 
@@ -104,9 +105,53 @@ const CategoriesComp = ({ categoryDic, lang }) => {
                 <h3 className="text-3xl md:text-4xl font-primary text-black uppercase tracking-wide mb-4">
                   {selectedCategory.title}
                 </h3>
-                <p className="text-base md:text-lg text-black/80 leading-relaxed">
+                <p className="text-base md:text-lg text-black/80 leading-relaxed mb-6">
                   {selectedCategory.ModalDescription}
                 </p>
+                <h4 className="text-xl font-primary text-black uppercase tracking-wide mb-2">
+                  {selectedCategory.ModalCaracteristicsTitle}
+                </h4>
+                {/* Tabs */}
+                <div className="mb-4">
+                  <div className="flex gap-2 border-b border-black/20">
+                    <button
+                      type="button"
+                      onClick={() => setActiveTab("basic")}
+                      className={`pb-3 px-4 font-primary uppercase text-sm tracking-widest transition-all ${
+                        activeTab === "basic"
+                          ? "text-black border-b-2 border-primary"
+                          : "text-black/60 hover:text-black"
+                      }`}
+                    >
+                      {selectedCategory.ModalBasicTabTitle}
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setActiveTab("premium")}
+                      className={`pb-3 px-4 font-primary uppercase text-sm tracking-widest transition-all ${
+                        activeTab === "premium"
+                          ? "text-black border-b-2 border-primary"
+                          : "text-black/60 hover:text-black"
+                      }`}
+                    >
+                      {selectedCategory.ModalPremiumTabTitle}
+                    </button>
+                  </div>
+                </div>
+
+                {/* Tab Content */}
+                <div className="animate-in fade-in duration-300">
+                  {activeTab === "basic" && (
+                    <p className="text-base md:text-lg text-black/80 leading-relaxed">
+                      {selectedCategory.ModalCaracteristicsBasic}
+                    </p>
+                  )}
+                  {activeTab === "premium" && (
+                    <p className="text-base md:text-lg text-black/80 leading-relaxed">
+                      {selectedCategory.ModalCaracteristicsPremium}
+                    </p>
+                  )}
+                </div>
               </div>
             </div>
           </div>
